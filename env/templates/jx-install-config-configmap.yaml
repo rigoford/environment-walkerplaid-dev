@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQBZGY1kHWj3c45JByNlTltDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRiMzNmMDNiNS1hNDQ0LTQ5YTUtODVhZS0yODc3ZTRiYThjNGUw
+    HhcNMTkwNTIzMDkzMjU1WhcNMjQwNTIxMTAzMjU1WjAvMS0wKwYDVQQDEyRiMzNm
+    MDNiNS1hNDQ0LTQ5YTUtODVhZS0yODc3ZTRiYThjNGUwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCzsXuTMaspVSTLyRfZE9rSoJV6LPG2qzcop6WYEDj5
+    xBmxvRkH5eCvYGpFgCT0D7cfP3b0xxer6FF7Ltj2to9fmRMU+I+jez0jZXT+lV+R
+    OsrJz/ouq6XVmfn1rnBdLyhmj0/vqkC5C/h04WNlXe45QbEnzwpNAvtpRTywKWBw
+    DSLFFYdADlNkb9E3OXN+xmhJneFsLzmGVurtAZJCkatjZIPC5z4eOJhg6rCpgIAm
+    GCUDuRNM1C/lTrWMrI+TaN/KgWyISXxqRGCv0FE4X5IOUf2XrJzsY5KTMSgrHRuR
+    CTgc4gkb+eNMEZJKBX5yyDJvuzfxCjvrxoJjKSQhObMRAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAu
+    CkonRPSbKtIdUwwdxX9JXF/e/3zkM9sqYiWUnmkNTXeSKTWpR2+ZTiFg3DXve6KS
+    64lfnT/46je0axHf6lzwjMPUI8bAsXphcesY+e7gC4fN5gRZwRD+xcF5+BVJKr1e
+    /EaqWXY6B8V6D3YsigJlHk9ElScFfaXy3fjn4Sq3VfC8uqbQ3UYk40COnqMUz+Xw
+    snAVFVT9NKjUbAV/VffB9VAE219KlkwqT2rxNTcNxtm5lLVwzGhSJY9U/DHddEDR
+    OaEzddEQVaAZj0f+TiCK/OtXdE5Oggr/nvRSxiGRFoo+/ILAF5CzFAimsrcZ1BLF
+    afVS3fZqcQtFj9MIXuu4
+    -----END CERTIFICATE-----
+  clusterName: walkerplaid
+  jx-install-version: 2.0.163
+  kubeProvider: gke
+  projectID: jenkins-x-demo-241415
+  region: ""
+  secretsLocation: vault
+  server: https://35.228.79.28
+  systemVaultName: jx-vault-walkerplaid
+  zone: europe-north1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
